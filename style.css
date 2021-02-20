@@ -1226,6 +1226,11 @@ footer p{
         z-index: 1;
         animation: header_h1 8s;
     }
+    
+    .image_h img{
+    padding: 0px 30px;
+    width: 33%;
+    }
 
     .mark div{
         text-align: center;
