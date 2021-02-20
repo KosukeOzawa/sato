@@ -1230,6 +1230,7 @@ footer p{
     .image_h img{
     padding: 0px 30px;
     width: 33%;
+    height: auto;
     }
 
     .mark div{
