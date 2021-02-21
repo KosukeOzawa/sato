@@ -757,11 +757,13 @@ footer .image_f{
 footer h4{
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 footer p{
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -1269,11 +1271,11 @@ footer p{
         height: 30vh;
         position: relative;
         opacity: 0;
-        transition: 1s;
+        transition: 2s;
     }
 
     .d4 , .d5 , .d6{
-        animation: cover 2s;
+        animation: cover 3s;
     }
 
     .text_h .text{
@@ -1334,7 +1336,7 @@ footer p{
     }
 
     .service{
-        height: 50vh;
+        height: 65vh;
         background-color: white;
         border-radius: 0px;
         position: relative;
