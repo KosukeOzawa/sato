@@ -289,6 +289,7 @@ header .image_h{
     font-size: 35px;
     color: white;
     text-decoration: underline solid #f8ce9e;
+    -webkit-text-decoration: underline solid #f8ce9e;
 }
 
 
@@ -1207,14 +1208,6 @@ footer p{
 
 
 @media (max-width: 600px){
-    body{
-    margin: 0px;
-    background-color: #1889b0;
-    position: relative;
-    font-family: 'TsukuARdGothic-Regular' , 'Hiragino Maru Gothic ProN' , sans-serif;
-    -webkit-appearance: none;
-    }
-   
     nav{
         display: none;
     }
