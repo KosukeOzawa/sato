@@ -1223,7 +1223,7 @@ footer p{
         left: 50%;
         transform: translate(-50% , -50%);
         color: white;
-        font-size: 60px;
+        font-size: 55px;
         z-index: 1;
         animation: header_h1 8s;
     }
@@ -1236,7 +1236,7 @@ footer p{
         left: 50%;
         transform: translateX(-50%);
         color: white;
-        font-size: 65px;
+        font-size: 55px;
         animation: mark 8s;
     }
     
@@ -1248,7 +1248,7 @@ footer p{
         left: 50%;
         transform: translateX(-50%);
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         animation: mark 8s;
     }
     
@@ -1374,7 +1374,7 @@ footer p{
 
     .gallary{
     margin-top: 0;
-    height: 115vh;
+    height: 125vh;
     position: relative;
     overflow: hidden;
     }
