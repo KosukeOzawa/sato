@@ -223,6 +223,7 @@ header .image_h{
 .image_h img{
     padding: 0px 30px;
     width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .mark div{
@@ -752,6 +753,7 @@ footer .image_f{
 
 .image_f img{
     width: 10vw;
+    height: 10vw;
 }
 
 footer h4{
