@@ -1323,7 +1323,7 @@ footer p{
         background-color: rgb(255, 255, 255);
         transition: 0.2s;
         color:  #1889b0;
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .service_cover{
@@ -1362,7 +1362,7 @@ footer p{
     
     .text_border p{
         flex: 1;
-        font-size: 10px;
+        font-size: 8px;
         color:  #1889b0;
         border: solid  2px  #1889b0;
         border-radius: 20px;
@@ -1436,8 +1436,8 @@ footer p{
     }
 
     .image_f img{
-        width: 20%;
-        height: 20%;
+        width: 10%;
+        height: 10%;
     }
 }
 
