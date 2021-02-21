@@ -1251,6 +1251,12 @@ footer p{
         font-size: 25px;
         animation: mark 8s;
     }
+    
+     .image_h img{
+        padding: 0px 30px;
+        max-width: 33%;
+        height: auto;
+    }
 
     .concept h1{
         line-height: 40vh;
@@ -1258,12 +1264,6 @@ footer p{
         font-size: 15px;
         color: white;
         text-decoration: underline solid #f8ce9e;
-    }
-
-    .image_h img{
-        padding: 0px 30px;
-        width: 33%;
-        height: 33%;
     }
 
     .stregs{
