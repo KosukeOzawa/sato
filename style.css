@@ -803,6 +803,53 @@ footer p{
 }
 
 @media (max-width: 1000px){
+    nav{
+        width: 100vw;
+        height: 70px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.048);
+        position: fixed;
+        top: -300px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    nav ul{
+        height: 70px;
+        margin: 0px;
+        display: flex;
+        position: absolute;
+        top: 0px;
+        width: 100vw;
+        padding: 0;
+    }
+    
+    nav img{
+        height: 55px;
+    }
+
+    .n4{
+        height: 50px;
+        position: absolute;
+        top: 7px;
+    }
+
+    .list1_text,
+    .list2_text,
+    .list3_text,
+    .list4_text{
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        opacity: 0;
+        text-decoration: underline solid #f8ce9e;
+        -webkit-text-decoration: underline solid #f8ce9e;
+        transition: 0.3s;
+    }
+    
+    
     header h1{
         margin: 0px;
         position: absolute;
