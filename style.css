@@ -210,7 +210,7 @@ header .image_h{
     display: flex;
     position: absolute;
     top: 50%;
-    left: -240%;
+    left: -200%;
     transform: translate( 0 , -55%);
     animation: imageloop 30s  linear infinite;
 }
@@ -222,7 +222,7 @@ header .image_h{
 }
 
 .image_h img{
-    padding: 0px 30px;
+    padding: 0px 0px;
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
