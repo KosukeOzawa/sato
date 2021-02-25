@@ -1266,12 +1266,21 @@ footer p{
         animation: mark 8s;
     }
     
-     .image_h img{
-        padding: 0px 30px;
-        max-width: 33%;
-        height: 33%;
+    header .image_h{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: -420%;
+        transform: translate( 0 , -55%);
+        animation: imageloop 30s  linear infinite;
     }
 
+     .image_h img{
+        padding: 0px 0px;
+        width: 250px;
+        height: 250px;
+    }
+    
     .concept h1{
         line-height: 40vh;
         text-align: center;
