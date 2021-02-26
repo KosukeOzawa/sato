@@ -857,7 +857,7 @@ footer p{
         left: 50%;
         transform: translate(-50% , -50%);
         color: white;
-        font-size: 110px;
+        font-size: 100px;
         z-index: 1;
         animation: header_h1 8s;
     }
@@ -961,7 +961,7 @@ footer p{
         left: 50%;
         transform: translate(-50% , -50%);
         color: white;
-        font-size: 100px;
+        font-size: 85px;
         z-index: 1;
         animation: header_h1 8s;
     }
