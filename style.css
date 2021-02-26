@@ -1317,15 +1317,15 @@ footer p{
         display: flex;
         position: absolute;
         top: 50%;
-        left: -420%;
+        left: -630%;
         transform: translate( 0 , -55%);
         animation: imageloop 30s  linear infinite;
     }
 
      .image_h img{
         padding: 0px 0px;
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
     }
     
     .concept h1{
