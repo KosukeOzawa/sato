@@ -124,6 +124,7 @@ nav img{
 @keyframes list1_an{
     50%{
         opacity: 0;
+        -webkit-opacity: 0;
     }
 }
 
@@ -137,6 +138,8 @@ nav img{
 @keyframes list2_an{
     50%{
         opacity: 0;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
 }
 
