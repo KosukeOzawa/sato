@@ -1448,8 +1448,8 @@ footer p{
     }  
 
     .gallary{
-        margin-top: 10vh;
-        height: 125vh;
+        margin-top: 5vh;
+        height: 120vh;
         position: relative;
         overflow: hidden;
     }
