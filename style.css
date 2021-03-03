@@ -558,15 +558,28 @@ header .image_h{
     margin-left: 100px;
 }
 
-.gallary p{
+.gallary h4{
     overflow: hidden;
     margin: 0px;
     color: #1889b0;
     font-size: 25px;
     text-align: center;
-    line-height: 35vw;
+    line-height: 28vw;
+    text-decoration: underline solid #f8ce9e;
+    -webkit-text-decoration: underline solid #f8ce9e;
 }
 
+.gallary p{
+    color: #1889b0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 17px;
+    opacity: 0;
+    transition: 0.3s;
+}
 
 .im1 input,
 .im2 input,
@@ -725,6 +738,22 @@ input[type="checkbox"]:checked ~ .black4{
     width: 35vw;
     text-indent: 0%;
     background-color:  rgba(255, 255, 255, 0.733);
+}
+
+.im1:hover p{
+    opacity: 1;
+}
+
+.im2:hover p{
+    opacity: 1;
+}
+
+.im3:hover p{
+    opacity: 1;
+}
+
+.im4:hover p{
+    opacity: 1;
 }
 
 
@@ -975,6 +1004,29 @@ footer .insta{
         width: calc((100vw - 200px) / 3);
     }
     
+    .gallary h4{
+        overflow: hidden;
+        margin: 0px;
+        color: #1889b0;
+        font-size: 20px;
+        text-align: center;
+        line-height: 28vw;
+        text-decoration: underline solid #f8ce9e;
+        -webkit-text-decoration: underline solid #f8ce9e;
+    }
+    
+    .gallary p{
+        color: #1889b0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 13px;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    
     footer{
         background-color: rgb(48, 47, 47);
         height: 55vh;
@@ -1153,13 +1205,27 @@ footer .insta{
         margin-right: 15vw;
     }
 
-    .gallary p{
+    .gallary h4{
         overflow: hidden;
         margin: 0px;
         color: #1889b0;
         font-size: 22px;
         text-align: center;
-        line-height: calc((100vw / 2) + 0.7vw);
+        line-height: 40vw;
+        text-decoration: underline solid #f8ce9e;
+        -webkit-text-decoration: underline solid #f8ce9e;
+    }
+    
+    .gallary p{
+        color: #1889b0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 14px;
+        opacity: 0;
+        transition: 0.3s;
     }
 
     .im1 .open1,
@@ -1538,13 +1604,27 @@ footer .insta{
         width: 100vw;
     }
 
-    .gallary p{
+    .gallary h4{
         overflow: hidden;
         margin: 0px;
         color: #1889b0;
-        font-size: 10px;
+        font-size: 11px;
         text-align: center;
-        line-height: calc((100vw / 2) + 0.7vw);
+        line-height: 40vw;
+        text-decoration: underline solid #f8ce9e;
+        -webkit-text-decoration: underline solid #f8ce9e;
+    }
+    
+    .gallary p{
+        color: #1889b0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 7px;
+        opacity: 0;
+        transition: 0.3s;
     }
 
     .im1 .open1,
