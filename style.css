@@ -781,7 +781,7 @@ footer .instagram{
 
 footer p{
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -1001,7 +1001,7 @@ footer .insta{
 
     footer p{
         position: absolute;
-        bottom: 30px;
+        bottom: 40px;
         left: 50%;
         transform: translateX(-50%);
         color: white;
@@ -1577,7 +1577,7 @@ footer .insta{
         line-height: 50px;
         padding: 0 15px 0 15px;
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
     
     .instagram h4{
@@ -1586,7 +1586,7 @@ footer .insta{
         line-height: 10px;
         padding: 0 20px 0 20px;
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
     
     footer p{
@@ -1597,19 +1597,19 @@ footer .insta{
         color: white;
         text-align: center;
         margin: 0;
-        font-size: 10px;
+        font-size: 9px;
         text-decoration: underline solid #f8ce9e;
         -webkit-text-decoration: underline solid #f8ce9e;
     }
     
     footer img{
-        width: 50px;
-        height: 50px;
+        width: 53px;
+        height: 53px;
     }
     
     footer .insta{
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         vertical-align: top;
     }
 }
