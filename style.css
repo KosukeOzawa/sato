@@ -1187,13 +1187,13 @@ footer .insta{
     .cover_g2{
         display: flex;
         position: absolute;
-        top: calc( 60.8vw + 40vh);
+        top: calc( 60.85vw + 40vh);
         left: 0;
     }
 
     .im1 , .im2 , .im3 , .im4{
         width: calc((100vw / 2) - 15vw);
-        height: calc((100vw / 2) + 0.7vw);
+        height: 50vw;
         background-color: rgba(255, 255, 255, 0.11);
         text-indent: -700%;
         white-space: nowrap;
@@ -1592,7 +1592,7 @@ footer .insta{
     .cover_g2{
         display: flex;
         position: absolute;
-        top: calc( 61.5vw + 30vh);
+        top: calc( 61.4vw + 30vh);
         left: 0;
     }
 
@@ -1602,16 +1602,6 @@ footer .insta{
         margin-bottom: 10vw;
         margin-left: 0px;
         width: 100vw;
-    }
-    
-    .im1 , .im2 , .im3 , .im4{
-        width: calc((100vw / 2) - 15vw);
-        height: calc((100vw / 2) + 6px);
-        background-color: rgba(255, 255, 255, 0.11);
-        text-indent: -700%;
-        white-space: nowrap;
-        position: relative;
-        transition: 0.3s;
     }
 
     .gallary h4{
