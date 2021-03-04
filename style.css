@@ -535,7 +535,7 @@ header .image_h{
 .cover_g2{
     display: flex;
     position: absolute;
-    top: calc(40.5vw + 40vh);
+    top: calc(40.4vw + 40vh);
     left: calc(30vw - 100px);
 }
 
