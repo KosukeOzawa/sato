@@ -825,7 +825,7 @@ footer .copy{
     position: absolute;
     bottom: 30px;
     right: 30px;
-    font-size: 5px;
+    font-size: 8px;
     color: white;
 }
 
@@ -1689,6 +1689,15 @@ footer .insta{
         text-decoration: underline solid #f8ce9e;
         -webkit-text-decoration: underline solid #f8ce9e;
     }
+    
+    footer .copy{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5px;
+    color: white;
+}
     
     footer img{
         width: 55px;
