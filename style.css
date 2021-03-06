@@ -825,7 +825,7 @@ footer .copy{
     position: absolute;
     bottom: 30px;
     right: 30px;
-    font-size: 8px;
+    font-size: 7px;
     color: white;
 }
 
@@ -1398,6 +1398,15 @@ footer .insta{
         height: 50vh;
         position: relative;
     }
+    
+    footer .copy{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6px;
+    color: white;
+    }
 }
 
 
@@ -1697,7 +1706,7 @@ footer .insta{
     transform: translateX(-50%);
     font-size: 5px;
     color: white;
-}
+    }
     
     footer img{
         width: 55px;
