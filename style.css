@@ -825,7 +825,7 @@ footer .copy{
     position: absolute;
     bottom: 30px;
     right: 30px;
-    font-size: 7px;
+    font-size: 10px;
     color: white;
 }
 
@@ -1070,6 +1070,15 @@ footer .insta{
         font-size: 13px;
         text-decoration: underline solid #f8ce9e;
         -webkit-text-decoration: underline solid #f8ce9e;
+    }
+    
+    footer .copy{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10px;
+        color: white;
     }
 }
 
@@ -1398,15 +1407,6 @@ footer .insta{
         height: 50vh;
         position: relative;
     }
-    
-    footer .copy{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-40%);
-    font-size: 6px;
-    color: white;
-    }
 }
 
 
@@ -1700,12 +1700,12 @@ footer .insta{
     }
     
     footer .copy{
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-35%);
-    font-size: 5px;
-    color: white;
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-40%);
+        font-size: 5px;
+        color: white;
     }
     
     footer img{
